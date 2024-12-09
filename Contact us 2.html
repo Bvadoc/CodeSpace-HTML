@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us 2</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+	  body {
+	   background: url('local.jpg') no-repeat center center fixed;
+	   background-size: 100% auto; 
+	   margin: 0; 
+       height: 100%;	  
+	 } 
+	 .content {
+	   position: absolute; 
+	   top: 0%;
+	   left: 50%;
+	   transform: translate(-50%, 0%);
+	   z-index: 1;
+	   color: white;
+	   text-align: center;
+	   width: 100%;
+	 }
+	 .form-container{
+	   margin-top: 300px;
+	   margin-bottom: 100px
+	 }
+	 .container {
+	   color: white;
+	   text-align: center;
+	 }
+	</style>
+ </head> 
+ <body>
+    <div class="content">
+      <h1>Contact us</h1>
+    </div>
+    <div class="btn-lighter">
+      <div class="container form-container">
+        <div class="row">
+		  <div class="col-md-6">
+		    <h3>Get in touch</h3>
+			<p><b>Feel free to reach out to us with any questions or comments you may have. We're here to help and look forward to hearing from you!</b></p>
+          </div>
+		  <div class="col-md-6">
+	        <form class="mt-3">
+              <div class="form-group">
+                <input type="text" class="form-control" id="First name" placeholder="First name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="Last name" placeholder="Last name">
+              </div>
+		      <div class="form-group">
+                <input type="Email" class="form-control" id="Email" placeholder="Email">
+              </div>
+		      <div class="form-group">
+                <textarea class="form-control" id="Message" placeholder="Message" rows="5"></textarea>
+              </div>
+              <button type="submit" class="btn btn-info">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div> 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+ </body>
+</html>	
